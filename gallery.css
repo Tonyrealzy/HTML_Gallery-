@@ -1,0 +1,185 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+/* Hedvig Letters Serif */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+Hedvig Letters Sans */ 
+
+body {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.UpperContainer {
+    position: relative;
+}
+
+.FirstHalf {
+    /*Also add a black background*/
+    position: relative;
+    display: flex;
+    height: 40vh;
+    /* vh - view height */
+    /* Also create another div BlackCover with same properties as FirstHalf and give it a height and other display properties as FirstHalf. Then work on the opacity so that the blend gives the FirstHalf a darker view */
+}
+
+.FirstHalf::before {
+    /* height: 45vh;
+    /* The use of rgba over rgb is because rgb totally overlays it but rgba gives it the opacity property */
+    content: "";
+    background-color: rgba(20, 16, 16, 0.875);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.FirstHalf img {
+    height: auto;
+    width: 100%;
+    /* display: block; */
+}
+
+.FirstHalfText {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 31.7%;
+    right: 31.7%;
+    /* transform: translate(-50, -50); */
+    align-items: center;
+    color:whitesmoke;
+    z-index: 1;
+    line-height: 1em;
+    /* display: flex; */
+}
+
+#HeavyFont{
+    font-weight:bolder;
+    font-size: 36px;
+}
+
+#LightFont {
+    color:whitesmoke;
+    font-size: 14.59px;
+    font-weight: lighter;
+    line-height: 1.6em;
+}
+
+.DownloadGallery {
+    background-color:rgb(47, 176, 219);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.DownloadNow{
+    background-color:deeppink;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-right: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+.Bootstrap{
+    background-color: transparent;
+    border-color:transparent;
+    border: 0cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+.SecondHalf{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1em;
+}
+
+#SomeTags{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+#All{
+    background-color:rgb(14, 130, 169);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#Beautiful, #Creative, #Cool, #Awesome{
+    background-color:white;
+    border:rgb(14, 130, 169) solid 1px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(14, 130, 169);
+}
+
+.FirstSet, .SecondSet{
+    display: flex;     
+}
+
+.PictureSet{
+    display: inline;
+    line-height: 1em;
+    position:relative;
+}
+
+#Image1, #Image2, #Image3, #Image4, #Image5{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Image5
+{
+    margin-top: 0px;
+} 
+
+#Image4
+{
+    height: 110px;
+} 
+
+#Image2, #Image5{
+    height: 100px;
+} 
+
+#Image3{
+    height: 92px;
+}
+
+
